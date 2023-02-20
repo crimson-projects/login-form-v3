@@ -1,0 +1,338 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.login-3{
+    background: #eef1f6;
+}
+
+.login-3 a {
+    text-decoration: none;
+}
+
+.login-3 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+.login-3 .bg-img{
+    background: url(../img/img-3.jpg) top left repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    min-height: 100vh;
+    text-align: left;
+    z-index: 10;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.login-3 .bg-img:after {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: 276px;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background: url(../img/img-51.png) top left repeat;
+}
+
+.login-3 .form-check-input:checked {
+    display: none;
+}
+
+.login-3 .form-section{
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-3 .form-section .form-box {
+    width: 100%;
+    position: relative;
+}
+
+.login-3 .login-inner-form {
+    max-width: 450px;
+    color: #535353;
+    width: 100%;
+    text-align: center;
+}
+
+.login-3 .login-inner-form p{
+    color: #535353;
+    font-size: 16px;
+    margin: 0;
+}
+
+.login-3 .login-inner-form p a{
+    color: #535353;
+    font-weight: 500;
+}
+
+.login-3 .login-inner-form img {
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.login-3 .login-inner-form h3 {
+    margin: 0 0 30px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #040404;
+}
+
+.login-3 .login-inner-form .form-group {
+    margin-bottom: 25px;
+}
+
+.login-3 .login-inner-form .form-control {
+    outline: none;
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 16px;
+    outline: 0;
+    font-weight: 400;
+    color: #535353;
+    height: 55px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+
+.login-3 .login-inner-form .btn-md {
+    cursor: pointer;
+    height: 55px;
+    color: #fff;
+    padding: 15.5px 50px 14.5px 50px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    border-radius: 3px;
+}
+
+.login-3 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-right: 3px;
+}
+
+.login-3 .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.login-3 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.login-3 .login-inner-form .btn-theme {
+    background: #ffa637;
+    border: none;
+    color: #fff;
+}
+
+.login-3 .login-inner-form .btn-theme:hover {
+    background: #ed972c;
+}
+
+.login-3 .login-inner-form .checkbox .terms {
+    margin-left: 3px;
+}
+
+.login-3 .informeson {
+    color: #fff;
+    max-width: 450px;
+}
+
+.login-3 .informeson h1{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.login-3 .informeson p{
+    color: #fff;
+    margin-bottom: 25px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.login-3 .none-2{
+    display: none;
+}
+
+.login-3 .btn-section {
+    margin-bottom: 30px;
+}
+
+.login-3 .login-inner-form .terms{
+    margin-left: 3px;
+}
+
+.login-3 .login-inner-form .form-check{
+    float: left;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.login-3 .login-inner-form .form-check a {
+    color: #535353;
+    float: right;
+}
+
+.login-3 .login-inner-form .form-check-input {
+    display: none;
+}
+
+.login-3 .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    top: 0;
+    height: 20px;
+    margin-left: -25px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.login-3 .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.login-3 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #ffa637;
+    border-color: #ffa637;
+}
+
+.login-3 .login-inner-form input[type=checkbox]:checked + label:before {
+    font-weight: 600;
+    color: #fff;
+    line-height: 17px;
+    font-size: 14px;
+    content: "\2713";
+    padding-left: 1px;
+}
+
+.login-3 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.login-3 .login-inner-form .checkbox a {
+    font-size: 16px;
+    color: #535353;
+    float: right;
+}
+
+.login-3 h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.login-3 .typing > *{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 3s steps(50);
+}
+
+@keyframes typingAnim {
+    from {width:0}
+    to {width:100%}
+}
+
+/* Social list */
+.login-3 .social-list a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+    border-radius: 50%;
+}
+
+.login-3 .social-list a i {
+    transition: transform 0.4s linear 0s;
+}
+
+.login-3 .social-list a:hover {
+    transform: rotate(360deg);
+    border-radius: 50px;
+}
+
+.login-3 .social-list a:hover i {
+    transform: rotate(-360deg);
+}
+
+.login-3 .social-list .buttons {
+    display: flex;
+}
+
+.login-3 .social-list a {
+    text-decoration: none !important;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin:0 4px 5px;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+
+.login-3 .social-list a i {
+    position: relative;
+    z-index: 3;
+}
+
+.login-3 .social-list a.facebook-bg {
+    color: #4867aa;
+}
+
+.login-3 .social-list a.twitter-bg {
+    color: #33CCFF;
+}
+
+.login-3 .social-list a.google-bg {
+    color: #db4437;
+}
+
+.login-3 .social-list a.dribbble-bg {
+    color: #2392e0;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .login-3 .bg-img {
+        display: none;
+    }
+
+    .login-3 .form-section{
+        padding: 30px 15px;
+    }
+}
